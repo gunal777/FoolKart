@@ -1,7 +1,7 @@
-import Home from "./UI/Home"
+import Home from "./pages/Home"
 import App from "./App"
-import Cart from "./UI/Cart"
-import Shop from "./UI/Shop"
+import Cart from "./pages/Cart"
+import Shop from "./pages/Shop"
 
 const routes = [
   {
