@@ -62,22 +62,3 @@ foolkart/
 
 ---
 
-## 📦 Installation
-
-```bash
-git clone <your-repo-url>
-cd project-folder
-npm install
-npm start
-```
-
----
-
-## 💡 Future Improvements
-
-- Add checkout page
-- Add localStorage persistence
-- Add authentication
-- Add payment integration
-
----
