@@ -1,5 +1,5 @@
 import { useOutletContext } from "react-router";
-import Quantity from "./Quantity";
+import Quantity from "../components/Quantity";
 import styles from "./Shop.module.css";
 
 const Shop = () => {

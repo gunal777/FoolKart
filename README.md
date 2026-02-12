@@ -1,16 +1,83 @@
-# React + Vite
+# 🛒 foolkart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple e-commerce shopping cart application built using **React**, **React Router**, and **Vite**. Users can browse products, add them to the cart, update quantities, and view the total price dynamically.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🛍️ View products
+- ➕ Add items to cart
+- ➖ Increase / decrease quantity
+- 🗑️ Remove items from cart
+- 💰 Auto-calculated grand total using `reduce()`
+- 📌 Sticky navigation bar
+- 🎨 Styled using CSS Modules
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router
+- CSS Modules
+- JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+
+```
+foolkart/
+│
+├── src/
+│ ├── assets/
+│ │
+│ ├── components/
+│ │ ├── NavBar.jsx
+│ │ ├── NavBar.module.css
+│ │ └── Quantity.jsx
+│ │
+│ ├── hooks/
+│ │ └── fetchProducts.js
+│ │
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Home.module.css
+│ │ ├── Shop.jsx
+│ │ ├── Shop.module.css
+│ │ ├── Cart.jsx
+│ │ └── Cart.module.css
+│ │
+│ ├── App.jsx
+│ ├── App.css
+│ ├── routes.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 📦 Installation
+
+```bash
+git clone <your-repo-url>
+cd project-folder
+npm install
+npm start
+```
+
+---
+
+## 💡 Future Improvements
+
+- Add checkout page
+- Add localStorage persistence
+- Add authentication
+- Add payment integration
+
+---
