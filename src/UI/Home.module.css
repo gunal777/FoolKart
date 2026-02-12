@@ -1,0 +1,46 @@
+.home-pg {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Headline */
+.home-pg h2 {
+  max-width: 800px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #c6d631;
+  margin: 0;
+}
+
+/* Sub heading */
+.home-pg h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #a19100;
+  margin: 0;
+}
+
+/* Button */
+.btn {
+  padding: 14px 28px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #123a41, #14c599);
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  color: white;
+  box-shadow: 0 10px 30px rgba(12, 252, 240, 0.4);
+}

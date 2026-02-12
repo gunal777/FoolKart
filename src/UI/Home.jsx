@@ -1,13 +1,14 @@
-import { Link } from "react-router"
+import { NavLink } from "react-router"
+import styles from "./Home.module.css"
 
 const Home = () => {
   return (
-    <div className="home-pg">
+    <div className={styles['home-pg']}>
       <h2>Welcome to FoolKart - a fake shopping experience built with React.
         Browse random products, add them to your cart, and explore how modern e-commerce works behind the scenes.
       </h2>
       <h3>Checkout our Items</h3>
-      <Link to="shop"><button>Shop</button></Link>
+      <NavLink to="shop" className={styles.btn}>Shop</NavLink>
     </div>
   );
 }

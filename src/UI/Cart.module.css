@@ -1,0 +1,109 @@
+.cart-pg {
+  min-height: calc(100vh - 80px);
+  padding: 40px 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 32px;
+  background-color: #262626;
+}
+
+/* Card */
+.card {
+  background: #1f1f1f;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-height: 450px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Image */
+.image {
+  height: 180px;
+  width: 100%;
+  object-fit: contain;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Title */
+.title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #e0e0e0;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Quantity text */
+.quantity {
+  font-size: 0.9rem;
+  color: #bdbdbd;
+  margin: 0;
+}
+
+/* Price */
+.price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #9ee493;
+  margin: 0;
+}
+
+/* Button (if you add one later) */
+.button {
+  margin-top: auto;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, #123a41, #14c599);
+  color: white;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(29, 209, 161, 0.4);
+}
+
+.btnCont {
+  display: flex;
+  gap: 10px;
+}
+
+.delete {
+  margin-top: auto;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, #411212, #e41313);
+  color: white;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.totalSection {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: right;
+  border-top: 2px solid #14c599;
+}
+
+.totalSection h2 {
+  color: #9ee493;
+  font-size: 1.4rem;
+}
